@@ -1,0 +1,23 @@
+.v-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vertical-line {
+  width: 7.5em;
+  top: 0;
+  bottom: 0;
+  left: 3rem;
+  @extend .position-absolute;
+  @extend .h-100;
+}
+
+.vertical-line-center {
+  width: 7.5em;
+  top: 0;
+  bottom: 0;
+  left: 31rem;
+  @extend .position-absolute;
+  @extend .h-100;
+}

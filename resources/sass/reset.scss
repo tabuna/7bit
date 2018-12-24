@@ -1,0 +1,125 @@
+
+body {
+  background: url('/img/bg.png') repeat;
+  line-height: 34px;
+  letter-spacing: 0.08px;
+}
+
+h1 {
+  line-height: 48px;
+  letter-spacing: 0.18px;
+  text-transform: uppercase;
+}
+
+h3 {
+  text-transform: uppercase;
+  line-height: 1.95;
+  letter-spacing: 0.07em;
+  @extend .mb-4;
+}
+
+h4 {
+  text-transform: uppercase;
+  line-height: 1.95;
+  letter-spacing: 0.07em;
+  @extend .mb-4;
+}
+
+
+a {
+  border-bottom: 2px solid #ffffff00;
+  transition: all 340ms;
+
+  &:hover {
+    border-bottom: 2px solid $gray-900;
+    transition: all 340ms;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 900px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 900px;
+  }
+}
+
+
+main {
+
+  @media (min-width: 576px){
+    h1, h2, h3, p, code, ul, ol {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    h1, h2, h3, p, code, ul, ol {
+      margin-left: 2.5rem;
+      margin-right: 2.5rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    h1, h2, h3, p, code, ul, ol {
+      margin-left: 7rem;
+      margin-right: 7rem;
+    }
+  }
+
+  @media (min-width: 992px) {
+    h1, h2, h3, p, code, ul, ol {
+      margin-left: 9.55rem;
+      margin-right: 9.55rem;
+    }
+  }
+
+  pre{
+    background-color: #ebebed;
+    position: relative;
+  }
+
+
+  code{
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+
+  h1 {
+    line-height: 60px;
+    letter-spacing: 0.24px;
+    @extend .mb-0;
+    @extend .p-5;
+    @extend .text-center;
+  }
+
+  h2 {
+    letter-spacing: 0.18px;
+    line-height: 60px;
+    @extend .text-center;
+    @extend .p-5;
+    @extend .mb-0;
+  }
+
+  h3 {
+    letter-spacing: 0.15px;
+    line-height: 48px;
+  }
+
+  p {
+    letter-spacing: 0.08px;
+
+    a {
+      color: $indigo;
+    }
+  }
+}

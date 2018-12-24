@@ -1,0 +1,30 @@
+// Typography
+$h3-font-size: 1.55rem;
+$h4-font-size: 1.3rem;
+$font-family-sans-serif: "Nunito", sans-serif;
+$line-height-base: 1.6;
+$headings-font-family: 'Oswald', sans-serif;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66D9b;
+$red: #ffe5e5;
+$orange: #fffce5;
+$yellow: #fffce5;
+$green: #e5ffe8;
+$teal: #4dc0b5;
+$cyan: #e6f7ff;
+$gray-900: #212529 !default;
+
+//bg-gradient-
+
+// Links
+//
+// Style anchor elements.
+
+$link-color:                $gray-900 !default;
+$link-decoration:           none !default;
+$link-hover-color:          darken($link-color, 15%) !default;
+$link-hover-decoration:     none !default;
