@@ -8,7 +8,7 @@
   width: 7.5em;
   top: 0;
   bottom: 0;
-  left: 3rem;
+  left: 2em;
   @extend .position-absolute;
   @extend .h-100;
 }
@@ -17,7 +17,7 @@
   width: 7.5em;
   top: 0;
   bottom: 0;
-  left: 31rem;
+  left: calc(50% - (7.5em / 2));
   @extend .position-absolute;
   @extend .h-100;
 }

@@ -25,7 +25,7 @@
 
 <div class=" bg-white border-bottom shadow-sm">
     <div class="container">
-        <div class="d-flex flex-column flex-md-row align-items-center pt-3 pb-3">
+        <div class="w-100 d-flex flex-column flex-md-row align-items-center pt-2 pb-2">
             <a class="p-2 text-dark mr-md-auto  my-md-0" href="#">Безумный веб</a>
             <a class="p-2 text-dark mr-md-auto ml-md-auto my-md-0" href="#">Чебурнет</a>
 

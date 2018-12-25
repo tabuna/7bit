@@ -31,3 +31,10 @@ Vue.component('example-component', require('./components/ExampleComponent.vue'))
 const app = new Vue({
     el: '#app'
 });
+
+
+import Prism from 'prismjs';
+
+document.addEventListener("turbolinks:load", function() {
+    Prism.highlightAll();
+});

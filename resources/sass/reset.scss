@@ -13,7 +13,7 @@ h1 {
 
 h3 {
   text-transform: uppercase;
-  line-height: 1.95;
+  line-height: 1.6; //1.95;
   letter-spacing: 0.07em;
   @extend .mb-4;
 }
@@ -52,7 +52,7 @@ a {
 
 main {
 
-  @media (min-width: 576px){
+  @media (min-width: 576px) {
     h1, h2, h3, p, code, ul, ol {
       margin-left: 1rem;
       margin-right: 1rem;
@@ -80,19 +80,33 @@ main {
     }
   }
 
-  pre{
-    background-color: #ebebed;
+  pre {
+    background-color: #fdf6e3;
     position: relative;
+    font-size: 87.5%;
+    line-height: 1.5;
+    margin-bottom: 1rem!important;
+    padding: 0!important;
+    border-radius: 0!important;
+
+    code {
+      display: block;
+      @extend .py-4;
+    }
   }
 
-
-  code{
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
+  img{
+    max-width: 100%;
+    object-fit: cover;
   }
+
+  blockquote {
+    background-color: #ebebed54;
+    @extend .py-5;
+    font-size: inherit;
+    line-height: 2em;
+  }
+
 
   h1 {
     line-height: 60px;
@@ -115,8 +129,13 @@ main {
     line-height: 48px;
   }
 
-  p {
+  p,li {
     letter-spacing: 0.08px;
+
+    code {
+      margin: 0;
+      background: #ebebed;
+    }
 
     a {
       color: $indigo;

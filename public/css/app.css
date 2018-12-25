@@ -32,7 +32,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Nunito", sans-serif;
+  --font-family-sans-serif: sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -71,7 +71,7 @@ section {
 
 body {
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.6;
@@ -409,7 +409,7 @@ h2,
 
 h3,
 .h3 {
-  font-size: 1.55rem;
+  font-size: 1.25rem;
 }
 
 h4,
@@ -6319,7 +6319,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -6444,7 +6444,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Nunito", sans-serif;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -8830,7 +8830,8 @@ h4,
 }
 
 .pt-4,
-.py-4 {
+.py-4,
+main pre code {
   padding-top: 1.5rem !important;
 }
 
@@ -8840,7 +8841,8 @@ h4,
 }
 
 .pb-4,
-.py-4 {
+.py-4,
+main pre code {
   padding-bottom: 1.5rem !important;
 }
 
@@ -8856,7 +8858,8 @@ main h2 {
 }
 
 .pt-5,
-.py-5 {
+.py-5,
+main blockquote {
   padding-top: 3rem !important;
 }
 
@@ -8866,7 +8869,8 @@ main h2 {
 }
 
 .pb-5,
-.py-5 {
+.py-5,
+main blockquote {
   padding-bottom: 3rem !important;
 }
 
@@ -10492,7 +10496,7 @@ h1 {
 
 h3 {
   text-transform: uppercase;
-  line-height: 1.95;
+  line-height: 1.6;
   letter-spacing: 0.07em;
 }
 
@@ -10579,16 +10583,29 @@ a:hover {
 }
 
 main pre {
-  background-color: #ebebed;
+  background-color: #fdf6e3;
   position: relative;
+  font-size: 87.5%;
+  line-height: 1.5;
+  margin-bottom: 1rem !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
 }
 
-main code {
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  bottom: 0;
+main pre code {
+  display: block;
+}
+
+main img {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main blockquote {
+  background-color: #ebebed54;
+  font-size: inherit;
+  line-height: 2em;
 }
 
 main h1 {
@@ -10606,11 +10623,19 @@ main h3 {
   line-height: 48px;
 }
 
-main p {
+main p,
+main li {
   letter-spacing: 0.08px;
 }
 
-main p a {
+main p code,
+main li code {
+  margin: 0;
+  background: #ebebed;
+}
+
+main p a,
+main li a {
   color: #6574cd;
 }
 
@@ -10630,13 +10655,13 @@ main p a {
   width: 7.5em;
   top: 0;
   bottom: 0;
-  left: 3rem;
+  left: 2em;
 }
 
 .vertical-line-center {
   width: 7.5em;
   top: 0;
   bottom: 0;
-  left: 31rem;
+  left: calc(50% - (7.5em / 2));
 }
 
