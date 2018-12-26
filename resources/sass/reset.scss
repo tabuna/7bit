@@ -50,6 +50,24 @@ a {
 }
 
 
+.pagination {
+  border-radius: 0;
+  @extend .bg-white;
+
+  .page-item {
+    @extend .p-3;
+
+    .page-link {
+      border: none;
+      &:hover{
+        text-decoration: underline;
+        background-color: inherit;
+      }
+    }
+  }
+}
+
+
 main {
 
   @media (min-width: 576px) {

@@ -93,7 +93,6 @@
         </div>
     </div>
 
-
     <div class="position-relative pb-3 mt-3 mb-3">
         <div class="bg-white pt-5 pb-1">
             <div class="bg-info vertical-line"></div>
@@ -184,71 +183,6 @@
         </div>
     </div>
 
-    <div class="row">
-
-        <div class="col-md-4">
-            <div class="position-relative pb-3 mt-3 mb-3">
-                <div class="bg-white p-4">
-                    <div class="bg-warning vertical-line"></div>
-                    <div class="v-center pl-4 pr-4">
-                        <div class="col-md-12 col-xs-12 p-0">
-                            <h3>Название для статьи вот такое вот офигенное и вот такое</h3>
-                        </div>
-                    </div>
-                    <div class="v-center">
-                        <div class="col-md-6 p-0 text-center">
-                            <time class="ml-3">12/14/2018</time>
-                        </div>
-                        <div class="col-md-6 text-right">
-                            <a href="#">Читать...</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="position-relative pb-3 mt-3 mb-3">
-                <div class="bg-white p-4">
-                    <div class="bg-danger vertical-line"></div>
-                    <div class="v-center pl-4 pr-4">
-                        <div class="col-md-12 col-xs-12 p-0">
-                            <h3>Название для статьи вот такое вот офигенное и вот такое</h3>
-                        </div>
-                    </div>
-                    <div class="v-center">
-                        <div class="col-md-6 p-0 text-center">
-                            <time class="ml-3">12/14/2018</time>
-                        </div>
-                        <div class="col-md-6 text-right">
-                            <a href="#">Читать...</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="position-relative pb-3 mt-3 mb-3">
-                <div class="bg-white p-4">
-                    <div class="bg-success vertical-line"></div>
-                    <div class="v-center pl-4 pr-4">
-                        <div class="col-md-12 col-xs-12 p-0">
-                            <h3>Название для статьи вот такое вот офигенное и вот такое</h3>
-                        </div>
-                    </div>
-                    <div class="v-center">
-                        <div class="col-md-6 p-0 text-center">
-                            <time class="ml-3">12/14/2018</time>
-                        </div>
-                        <div class="col-md-6 text-right">
-                            <a href="#">Читать...</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
     <div class="position-relative pb-3 mt-3 mb-3">
         <div class="bg-white pt-5 pb-1">
             <div class="bg-info vertical-line"></div>
@@ -259,7 +193,8 @@
                 <div class="col-md-8 col-xs-12 p-4">
                     <h3>Let’s bury the hustle</h3>
                     <p>
-                        I love Gary Vaynerchuk dearly. So much of his message about patience and perseverance is completely in line with how I view the world. But…
+                        I love Gary Vaynerchuk dearly. So much of his message about patience and perseverance is
+                        completely in line with how I view the world. But…
                     </p>
                 </div>
             </div>
@@ -339,5 +274,18 @@
     </div>
 
 
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li class="page-item disabled mr-md-auto">
+                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Назад</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item ml-md-auto">
+                <a class="page-link" href="#">Вперёд</a>
+            </li>
+        </ul>
+    </nav>
 
 @endsection

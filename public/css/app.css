@@ -7001,7 +7001,8 @@ button.bg-dark:focus {
   background-color: #1d2124 !important;
 }
 
-.bg-white {
+.bg-white,
+.pagination {
   background-color: #fff !important;
 }
 
@@ -8801,7 +8802,8 @@ h4,
   padding-left: 0.5rem !important;
 }
 
-.p-3 {
+.p-3,
+.pagination .page-item {
   padding: 1rem !important;
 }
 
@@ -10528,6 +10530,19 @@ a:hover {
   .container {
     max-width: 900px;
   }
+}
+
+.pagination {
+  border-radius: 0;
+}
+
+.pagination .page-item .page-link {
+  border: none;
+}
+
+.pagination .page-item .page-link:hover {
+  text-decoration: underline;
+  background-color: inherit;
 }
 
 @media (min-width: 576px) {
