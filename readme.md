@@ -1,3 +1,5 @@
+<meta name="google-site-verification" content="WXmTcKAYJEbDa50fuj9DM_VsB7-irrZc4ZLytFzSpqs" />
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
